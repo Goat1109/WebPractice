@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Flush Bot</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Smart Flush Bot</h1>
+        </header>
+        <main>
+            <div class="controls">
+                <button id="startBtn">Start Cleaning</button>
+                <button id="stopBtn">Stop Cleaning</button>
+            </div>
+            <div class="status">
+                <p>Robot Status: <span id="status">Idle</span></p>
+            </div>
+            <div class="video">
+                <p>Cleaning Video:</p>
+                <video id="cleaningVideo" width="640" height="360" controls>
+                    <source src="cleaning.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </main>
+        <footer>
+            <p>&copy; 2024 Smart Flush Bot. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
+
